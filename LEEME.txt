@@ -17,7 +17,7 @@ Instrucciones ejecutar proyecto
 2 .- Limpie por completo el directorio C:\xampp\htdocs
 3 .- Inicie los servicios "Apache" y "MySQL"
 4 .- Cree un directorio en C:\xampp\htdocs llamado "sistema-votacion-desis"
-5 .- Copie el codigo descargado en la ruta C:\xapp\htdocs\sistema-votacion-desis 
-6 .- Ingrese desde el navegador a la direccion http://localhost/phpmyadmin
+5 .- Copie el codigo descargado desde la el directorio "sistema-votacion-desis-main" a la ruta C:\xapp\htdocs\sistema-votacion-desis 
+6 .- Ingrese desde el navegador a la URL http://localhost/phpmyadmin
 7 .- Ejecute la importacion del archivo sistemavotaciones.sql con la herramienta disponible en PHPMyAdmin
-8 .- Finalmente podra hacer uso del sistema en la direccion http://localhost/sistema-votacion-desis
+8 .- Finalmente podra hacer uso del sistema desde la URL http://localhost/sistema-votacion-desis
