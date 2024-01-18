@@ -1,0 +1,38 @@
+/* Estilos para el formulario de votacion */
+
+form fieldset  { 
+    display: table;  
+    border-collapse: separate;
+    border-spacing: 0 1em;   
+}
+
+.form-input-group { display: table-row; margin-bottom: 15px;  }
+.form-label { display: table-cell; }
+
+.form-input-group select,
+.form-input-group input[type=text] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Estilos para validaciones de campos */
+
+label.error {
+    color:red;
+    display: table-cell;
+    padding-left: 5px;
+}
+
+input.error,
+select.error {
+    border-color: red;
+}
+
+/* Estilos para alertas*/
+
+div.jconfirm-holder{
+    max-width: 50%;
+    margin-left: 20%;
+}

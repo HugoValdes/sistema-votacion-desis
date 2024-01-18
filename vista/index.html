@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Votaci&oacute;nes</title>
+
+    <!-- Incluir estilos -->
+    <link rel="stylesheet" href="../sistema-votacion-desis/public/css/styles.css">
+    
+    <!-- Incluir vendors -->
+    <script src="../sistema-votacion-desis/public/vendors/jquery/jquery-3.7.1.min.js"></script>
+    
+    <link rel="stylesheet" href="../sistema-votacion-desis/public/vendors/jquery-confirm/css/jquery.confirm.min.css">
+    <script src="../sistema-votacion-desis/public/vendors/jquery-confirm/js/jquery.confirm.min.js"></script>
+</head>
+<body>
+
+    <script src="../sistema-votacion-desis/public/vendors/validator/jquery.validate.min.js"></script>
+    <script src="../sistema-votacion-desis/public/vendors/validator/customvalidations.js"></script>
+    <script src="../sistema-votacion-desis/public/js/main.js"></script>
+
+    <div id="main">
+
+        <h1>Formulario de votaci&oacute;n:</h1>
+        
+        <form id="frmVotacion" name="frmVotacion">
+
+            <fieldset>
+
+                <p class="form-input-group">
+                    <label class="form-label" for="txtNombreApellidod">Nombre y Apellido</label>
+                    <input type="text" name="txtNombreApellido" id="txtNombreApellido" value="" />
+                </p>
+                <p class="form-input-group">
+                    <label class="form-label" for="txtAlias">Alias</label>
+                    <input type="text" name="txtAlias" id="txtAlias" value="" />
+                </p>
+                <p class="form-input-group">
+                    <label class="form-label" for="txtRut">RUT</label>
+                    <input type="text" name="txtRut" id="txtRut" value="" />
+                </p>
+                <p class="form-input-group">
+                    <label class="form-label" for="txtEmail">Email</label>
+                    <input type="text" name="txtEmail" id="txtEmail" value="" />
+                </p>
+                <p class="form-input-group">
+                    <label class="form-label" for="cboRegion">Regi&oacute;n</label>
+                    <select name="cboRegion" id="cboRegion" value="">
+                        <option value="">- Seleccione -</option>
+                    </select>
+                </p>
+                <p class="form-input-group">
+                    <label class="form-label" for="cboComuna">Comuna</label>
+                    <select name="cboComuna" id="cboComuna" value="">
+                        <option value="">- Seleccione -</option>
+                    </select>
+                </p>
+
+                <p class="form-input-group">
+                    <label class="form-label" for="cboCandidato">Candidato</label>
+                    <select name="cboCandidato" id="cboCandidato" value="">
+                        <option value="">- Seleccione -</option>
+                    </select>
+                </p>
+
+                <p class="form-input-group">
+ 
+                    <label class="form-label">Como se enter&oacute; de Nosotros?</label>
+
+                    <label for="chkEntero_Web" style="word-wrap:break-word">
+                        <input type="checkbox" name="chkEntero_Web" id="chkEntero_Web" value="" /> Web
+                    </label>
+
+                    <label for="chkEntero_TV" style="word-wrap:break-word">
+                        <input type="checkbox" name="chkEntero_TV" id="chkEntero_TV" value="" /> TV
+                    </label>
+
+                    <label for="chkEntero_RedesSociales" style="word-wrap:break-word">
+                        <input type="checkbox" name="chkEntero_RedesSociales" id="chkEntero_RedesSociales" value="" /> Redes Sociales 
+                    </label>
+
+                    <label for="chkEntero_Amigo" style="word-wrap:break-word">
+                        <input type="checkbox" name="chkEntero_Amigo" id="chkEntero_Amigo" value="" /> Amigo 
+                    </label>
+
+                    <label id="chkEntero-error" class="error" style="display: none;"></label>
+
+                </p>
+
+                <p class="form-input-group">
+            
+                    <input type="button" id="btnVotar" name="btnVotar" value="Votar"/>
+            
+                </p>
+      
+            </fieldset>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+/****************************************************************************/
+
+Versiones
+
+- XAMPP 8.0.30-0 
+- PHP 8.0.30
+- Apache/2.4.58 (Win64)
+- PHPMyAdmin 5.2.1
+- Motor 10.4.32-MariaDB
+- MySQL 15.1
+
+/****************************************************************************/
+
+Instrucciones ejecutar proyecto
+
+1 .- Descargue e instale XAMPP Server para Windows en su version 8.0.30-0
+2 .- Limpie por completo el directorio C:\xampp\htdocs
+3 .- Inicie los servicios "Apache" y "MySQL"
+4 .- Cree un directorio en C:\xampp\htdocs llamado "sistema-votacion-desis"
+5 .- Copie el codigo descargado en la ruta C:\xapp\htdocs\sistema-votacion-desis 
+6 .- Ingrese desde el navegador a la direccion http://localhost/phpmyadmin
+7 .- Ejecute la importacion del archivo sistemavotaciones.sql con la herramienta disponible en PHPMyAdmin
+8 .- Finalmente podra hacer uso del sistema en la direccion http://localhost/sistema-votacion-desis
